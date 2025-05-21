@@ -1,1 +1,86 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("../images/netflixBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header svg {
+  width: 148px;
+  height: 35px;
+}
+.header svg path {
+  fill: #e50914;
+}
+.header .header__container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  padding: 20px 148px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  position: absolute;
+  z-index: 2;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.header .header__login {
+  position: relative;
+}
+.header .header__login .language-btn {
+  width: 140px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background-color: rgb(19, 17, 17);
+  color: white;
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 14px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.header .header__login .select-arrow {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 8px;
+  right: 95px;
+}
+.header .header__login .select-arrow path {
+  fill: white;
+}
+.header .header__login .language-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.header .header__login .language-icon path {
+  fill: white;
+}
+.header .header__login .login-btn {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-left: 8px;
+}/*# sourceMappingURL=main.css.map */
