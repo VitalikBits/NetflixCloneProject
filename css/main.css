@@ -1,6 +1,7 @@
-body {
+body, h1, p {
   margin: 0;
   padding: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -13,17 +14,17 @@ body {
   background-repeat: no-repeat;
 }
 .header svg {
-  width: 148px;
-  height: 35px;
+  width: 150px;
+  height: 37px;
 }
 .header svg path {
   fill: #e50914;
 }
-.header .header__container {
+.header__container {
   box-sizing: border-box;
   width: 100%;
   height: 120px;
-  padding: 20px 148px 0px;
+  padding: 20px 148px 0 125px;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -37,10 +38,10 @@ body {
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
-.header .header__login {
+.header__login {
   position: relative;
 }
-.header .header__login .language-btn {
+.header__login .language-btn {
   width: 140px;
   height: 30px;
   box-sizing: border-box;
@@ -54,27 +55,27 @@ body {
      -moz-appearance: none;
           appearance: none;
 }
-.header .header__login .select-arrow {
+.header__login .select-arrow {
   width: 15px;
   height: 15px;
   position: absolute;
   top: 8px;
   right: 95px;
 }
-.header .header__login .select-arrow path {
+.header__login .select-arrow path {
   fill: white;
 }
-.header .header__login .language-icon {
+.header__login .language-icon {
   width: 15px;
   height: 15px;
   position: absolute;
   top: 7px;
   left: 10px;
 }
-.header .header__login .language-icon path {
+.header__login .language-icon path {
   fill: white;
 }
-.header .header__login .login-btn {
+.header__login .login-btn {
   width: 70px;
   height: 30px;
   background-color: rgb(229, 9, 20);
@@ -83,4 +84,87 @@ body {
   border-radius: 4px;
   font-size: 14px;
   margin-left: 8px;
+}
+.header__section h1, .header__section p {
+  color: white;
+}
+.header__section-container {
+  position: absolute;
+  width: 550px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+.header__section-container h1 {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header__section-container p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.header__section-container .des1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.header__section-container .des2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.header__section-form {
+  display: flex;
+  position: relative;
+}
+.header__section-input {
+  width: 395px;
+  height: 50px;
+  padding: 0px 16px 0px;
+  box-sizing: border-box;
+  background-color: rgb(23, 23, 23);
+  border-style: solid;
+  border-width: 1px;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-radius: 4px;
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+}
+.header__section-input::-moz-placeholder {
+  color: rgb(221, 221, 221);
+}
+.header__section-input::placeholder {
+  color: rgb(221, 221, 221);
+}
+.header__section-btn {
+  margin-left: 7px;
+  width: 155px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: white;
+  font-size: 22px;
+  box-sizing: border-box;
+  padding-right: 45px;
+}
+.header__section .right-arrow {
+  position: absolute;
+  top: 14px;
+  right: 23px;
+  width: 23px;
+  height: 23px;
+}
+.header__section .right-arrow path {
+  fill: white;
 }/*# sourceMappingURL=main.css.map */
