@@ -1,4 +1,4 @@
-body, h1, p {
+body, h1, h2, p {
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
@@ -486,4 +486,111 @@ ul {
 }
 .main .popular-list-container .slider-btn:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+.main .reasons-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main .reasons-container .reasons-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.main .reasons-container .reasons-list {
+  display: flex;
+  gap: 15px;
+}
+.main .reasons-container .reasons-list .reason-block {
+  width: 340px;
+  height: 330px;
+  padding: 15px;
+  border-radius: 15px;
+  background: radial-gradient(circle at 90% 100%, rgba(255, 0, 80, 0.25) 0%, transparent 50%), linear-gradient(180deg, #1b0036 0%, #0d0d0d 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+.main .reasons-container .reasons-list .first-block {
+  position: relative;
+}
+.main .reasons-container .reasons-list .first-block-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+.main .reasons-container .reasons-list .first-block-desc {
+  padding-right: 25px;
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+}
+.main .reasons-container .reasons-list .first-block .computer-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+}
+.main .reasons-container .reasons-list .second-block {
+  box-sizing: border-box;
+  position: relative;
+}
+.main .reasons-container .reasons-list .second-block-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+.main .reasons-container .reasons-list .second-block-desc {
+  padding-right: 25px;
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+}
+.main .reasons-container .reasons-list .second-block .arrow_down-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+}
+.main .reasons-container .reasons-list .third-block {
+  position: relative;
+}
+.main .reasons-container .reasons-list .third-block-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+.main .reasons-container .reasons-list .third-block-desc {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+}
+.main .reasons-container .reasons-list .third-block .telescope-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+}
+.main .reasons-container .reasons-list .fourth-block {
+  position: relative;
+}
+.main .reasons-container .reasons-list .fourth-block-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+.main .reasons-container .reasons-list .fourth-block-desc {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+}
+.main .reasons-container .reasons-list .fourth-block .faces-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
 }/*# sourceMappingURL=main.css.map */
